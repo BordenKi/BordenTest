@@ -22,7 +22,7 @@ pod 'BordenPodTest'
 
 ## Author
 
-康铭, kangming@wanhesec.com
+Borden, kangmingo51o@gmail.com
 
 ## License
 
