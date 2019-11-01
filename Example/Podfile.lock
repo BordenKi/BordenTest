@@ -1,0 +1,16 @@
+PODS:
+  - BordenPodTest (0.1.0)
+
+DEPENDENCIES:
+  - BordenPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  BordenPodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BordenPodTest: 6a96166c6123b3cfe9f20558efe81a7d5f53e28a
+
+PODFILE CHECKSUM: 1d88ae1f0a7b7c9a70e66aa5ad100ce126d4bdb5
+
+COCOAPODS: 1.8.3

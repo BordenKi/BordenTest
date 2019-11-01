@@ -1,0 +1,22 @@
+{
+  "name": "BordenPodTest",
+  "version": "0.1.0",
+  "summary": "A short description of BordenPodTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/康铭/BordenPodTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "康铭": "kangming@wanhesec.com"
+  },
+  "source": {
+    "git": "https://github.com/康铭/BordenPodTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BordenPodTest/Classes/**/*"
+}

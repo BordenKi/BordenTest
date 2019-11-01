@@ -1,0 +1,6 @@
+framework module BordenPodTest {
+  umbrella header "BordenPodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

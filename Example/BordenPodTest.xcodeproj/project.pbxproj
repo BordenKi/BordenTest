@@ -64,9 +64,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AAA55440DFB1B8D9BE392A0 /* Pods-BordenPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BordenPodTest_Example.release.xcconfig"; path = "Target Support Files/Pods-BordenPodTest_Example/Pods-BordenPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B3E1A831A8EFA29C2EF6D142 /* Pods-BordenPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BordenPodTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-BordenPodTest_Tests/Pods-BordenPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D73070FB0ED16D3A82E8FF57 /* BordenPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BordenPodTest.podspec; path = ../BordenPodTest.podspec; sourceTree = "<group>"; };
-		DB986B79B98EBA7D8EC39319 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EC5513D61DF96B033957CC5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D73070FB0ED16D3A82E8FF57 /* BordenPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BordenPodTest.podspec; path = ../BordenPodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB986B79B98EBA7D8EC39319 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EC5513D61DF96B033957CC5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				25C37AEBA0CE7E99BBD66C95 /* Pods-BordenPodTest_Tests.debug.xcconfig */,
 				B3E1A831A8EFA29C2EF6D142 /* Pods-BordenPodTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
