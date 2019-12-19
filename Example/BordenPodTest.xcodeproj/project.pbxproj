@@ -24,6 +24,17 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8BD70115EEEA40A25A8E931C /* Pods_BordenPodTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8664033FE56D94F8E4146049 /* Pods_BordenPodTest_Example.framework */; };
+		9E84BBD923AB6DDF00DB4B72 /* WHCCValidateInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E84BBBF23AB6DDF00DB4B72 /* WHCCValidateInterceptor.m */; };
+		9E84BBDA23AB6DDF00DB4B72 /* WHCCAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E84BBC023AB6DDF00DB4B72 /* WHCCAnnotation.m */; };
+		9E84BBDB23AB6DDF00DB4B72 /* WHCCResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E84BBC423AB6DDF00DB4B72 /* WHCCResult.m */; };
+		9E84BBDC23AB6DDF00DB4B72 /* WHCCLocalCCInterceptorHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E84BBC623AB6DDF00DB4B72 /* WHCCLocalCCInterceptorHolder.m */; };
+		9E84BBDD23AB6DDF00DB4B72 /* WHCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E84BBCF23AB6DDF00DB4B72 /* WHCC.m */; };
+		9E84BBDE23AB6DDF00DB4B72 /* WHCCComponentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E84BBD023AB6DDF00DB4B72 /* WHCCComponentManager.m */; };
+		9E84BBDF23AB6DDF00DB4B72 /* WHCCChainProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E84BBD223AB6DDF00DB4B72 /* WHCCChainProcessor.m */; };
+		9E84BBE023AB6DDF00DB4B72 /* WHCCThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E84BBD423AB6DDF00DB4B72 /* WHCCThreadSafeDictionary.m */; };
+		9E84BBE123AB6DDF00DB4B72 /* WHCCMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E84BBD523AB6DDF00DB4B72 /* WHCCMonitor.m */; };
+		9E84BBE223AB6DDF00DB4B72 /* WHCCWait4ResultInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E84BBD623AB6DDF00DB4B72 /* WHCCWait4ResultInterceptor.m */; };
+		9E84BBE323AB6DDF00DB4B72 /* WHCCChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E84BBD823AB6DDF00DB4B72 /* WHCCChain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +74,33 @@
 		8664033FE56D94F8E4146049 /* Pods_BordenPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BordenPodTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AAA55440DFB1B8D9BE392A0 /* Pods-BordenPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BordenPodTest_Example.release.xcconfig"; path = "Target Support Files/Pods-BordenPodTest_Example/Pods-BordenPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9E84BBBF23AB6DDF00DB4B72 /* WHCCValidateInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCCValidateInterceptor.m; sourceTree = "<group>"; };
+		9E84BBC023AB6DDF00DB4B72 /* WHCCAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCCAnnotation.m; sourceTree = "<group>"; };
+		9E84BBC123AB6DDF00DB4B72 /* WHCCComponentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCComponentManager.h; sourceTree = "<group>"; };
+		9E84BBC223AB6DDF00DB4B72 /* WHCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCC.h; sourceTree = "<group>"; };
+		9E84BBC323AB6DDF00DB4B72 /* WHCCChainProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCChainProcessor.h; sourceTree = "<group>"; };
+		9E84BBC423AB6DDF00DB4B72 /* WHCCResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCCResult.m; sourceTree = "<group>"; };
+		9E84BBC523AB6DDF00DB4B72 /* WHCCChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCChain.h; sourceTree = "<group>"; };
+		9E84BBC623AB6DDF00DB4B72 /* WHCCLocalCCInterceptorHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCCLocalCCInterceptorHolder.m; sourceTree = "<group>"; };
+		9E84BBC723AB6DDF00DB4B72 /* WHCCWait4ResultInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCWait4ResultInterceptor.h; sourceTree = "<group>"; };
+		9E84BBC823AB6DDF00DB4B72 /* WHCCMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCMonitor.h; sourceTree = "<group>"; };
+		9E84BBC923AB6DDF00DB4B72 /* WHCCThreadSafeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCThreadSafeDictionary.h; sourceTree = "<group>"; };
+		9E84BBCA23AB6DDF00DB4B72 /* WHCCIMainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCIMainThread.h; sourceTree = "<group>"; };
+		9E84BBCB23AB6DDF00DB4B72 /* WHCCAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCAnnotation.h; sourceTree = "<group>"; };
+		9E84BBCC23AB6DDF00DB4B72 /* WHCCICCInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCICCInterceptor.h; sourceTree = "<group>"; };
+		9E84BBCD23AB6DDF00DB4B72 /* WHCCValidateInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCValidateInterceptor.h; sourceTree = "<group>"; };
+		9E84BBCE23AB6DDF00DB4B72 /* WHCCHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCHeader.h; sourceTree = "<group>"; };
+		9E84BBCF23AB6DDF00DB4B72 /* WHCC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCC.m; sourceTree = "<group>"; };
+		9E84BBD023AB6DDF00DB4B72 /* WHCCComponentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCCComponentManager.m; sourceTree = "<group>"; };
+		9E84BBD123AB6DDF00DB4B72 /* WHCCResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCResult.h; sourceTree = "<group>"; };
+		9E84BBD223AB6DDF00DB4B72 /* WHCCChainProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCCChainProcessor.m; sourceTree = "<group>"; };
+		9E84BBD323AB6DDF00DB4B72 /* WHCCIComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCIComponent.h; sourceTree = "<group>"; };
+		9E84BBD423AB6DDF00DB4B72 /* WHCCThreadSafeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCCThreadSafeDictionary.m; sourceTree = "<group>"; };
+		9E84BBD523AB6DDF00DB4B72 /* WHCCMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCCMonitor.m; sourceTree = "<group>"; };
+		9E84BBD623AB6DDF00DB4B72 /* WHCCWait4ResultInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCCWait4ResultInterceptor.m; sourceTree = "<group>"; };
+		9E84BBD723AB6DDF00DB4B72 /* WHCCLocalCCInterceptorHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCCLocalCCInterceptorHolder.h; sourceTree = "<group>"; };
+		9E84BBD823AB6DDF00DB4B72 /* WHCCChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCCChain.m; sourceTree = "<group>"; };
+		9E84BBE423AB6E2700DB4B72 /* BordenPodTestHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BordenPodTestHeader.pch; sourceTree = "<group>"; };
 		B3E1A831A8EFA29C2EF6D142 /* Pods-BordenPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BordenPodTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-BordenPodTest_Tests/Pods-BordenPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D73070FB0ED16D3A82E8FF57 /* BordenPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BordenPodTest.podspec; path = ../BordenPodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DB986B79B98EBA7D8EC39319 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -98,6 +136,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				9E84BBBE23AB6DDF00DB4B72 /* WHCC */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for BordenPodTest */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -132,6 +171,7 @@
 		6003F593195388D20070C39A /* Example for BordenPodTest */ = {
 			isa = PBXGroup;
 			children = (
+				9E84BBE423AB6E2700DB4B72 /* BordenPodTestHeader.pch */,
 				6003F59C195388D20070C39A /* BORDENAppDelegate.h */,
 				6003F59D195388D20070C39A /* BORDENAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -194,6 +234,39 @@
 				B3E1A831A8EFA29C2EF6D142 /* Pods-BordenPodTest_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E84BBBE23AB6DDF00DB4B72 /* WHCC */ = {
+			isa = PBXGroup;
+			children = (
+				9E84BBBF23AB6DDF00DB4B72 /* WHCCValidateInterceptor.m */,
+				9E84BBC023AB6DDF00DB4B72 /* WHCCAnnotation.m */,
+				9E84BBC123AB6DDF00DB4B72 /* WHCCComponentManager.h */,
+				9E84BBC223AB6DDF00DB4B72 /* WHCC.h */,
+				9E84BBC323AB6DDF00DB4B72 /* WHCCChainProcessor.h */,
+				9E84BBC423AB6DDF00DB4B72 /* WHCCResult.m */,
+				9E84BBC523AB6DDF00DB4B72 /* WHCCChain.h */,
+				9E84BBC623AB6DDF00DB4B72 /* WHCCLocalCCInterceptorHolder.m */,
+				9E84BBC723AB6DDF00DB4B72 /* WHCCWait4ResultInterceptor.h */,
+				9E84BBC823AB6DDF00DB4B72 /* WHCCMonitor.h */,
+				9E84BBC923AB6DDF00DB4B72 /* WHCCThreadSafeDictionary.h */,
+				9E84BBCA23AB6DDF00DB4B72 /* WHCCIMainThread.h */,
+				9E84BBCB23AB6DDF00DB4B72 /* WHCCAnnotation.h */,
+				9E84BBCC23AB6DDF00DB4B72 /* WHCCICCInterceptor.h */,
+				9E84BBCD23AB6DDF00DB4B72 /* WHCCValidateInterceptor.h */,
+				9E84BBCE23AB6DDF00DB4B72 /* WHCCHeader.h */,
+				9E84BBCF23AB6DDF00DB4B72 /* WHCC.m */,
+				9E84BBD023AB6DDF00DB4B72 /* WHCCComponentManager.m */,
+				9E84BBD123AB6DDF00DB4B72 /* WHCCResult.h */,
+				9E84BBD223AB6DDF00DB4B72 /* WHCCChainProcessor.m */,
+				9E84BBD323AB6DDF00DB4B72 /* WHCCIComponent.h */,
+				9E84BBD423AB6DDF00DB4B72 /* WHCCThreadSafeDictionary.m */,
+				9E84BBD523AB6DDF00DB4B72 /* WHCCMonitor.m */,
+				9E84BBD623AB6DDF00DB4B72 /* WHCCWait4ResultInterceptor.m */,
+				9E84BBD723AB6DDF00DB4B72 /* WHCCLocalCCInterceptorHolder.h */,
+				9E84BBD823AB6DDF00DB4B72 /* WHCCChain.m */,
+			);
+			path = WHCC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,9 +437,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E84BBDA23AB6DDF00DB4B72 /* WHCCAnnotation.m in Sources */,
+				9E84BBE123AB6DDF00DB4B72 /* WHCCMonitor.m in Sources */,
+				9E84BBDE23AB6DDF00DB4B72 /* WHCCComponentManager.m in Sources */,
 				6003F59E195388D20070C39A /* BORDENAppDelegate.m in Sources */,
+				9E84BBDF23AB6DDF00DB4B72 /* WHCCChainProcessor.m in Sources */,
 				6003F5A7195388D20070C39A /* BORDENViewController.m in Sources */,
+				9E84BBD923AB6DDF00DB4B72 /* WHCCValidateInterceptor.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				9E84BBE223AB6DDF00DB4B72 /* WHCCWait4ResultInterceptor.m in Sources */,
+				9E84BBDB23AB6DDF00DB4B72 /* WHCCResult.m in Sources */,
+				9E84BBE323AB6DDF00DB4B72 /* WHCCChain.m in Sources */,
+				9E84BBDD23AB6DDF00DB4B72 /* WHCC.m in Sources */,
+				9E84BBE023AB6DDF00DB4B72 /* WHCCThreadSafeDictionary.m in Sources */,
+				9E84BBDC23AB6DDF00DB4B72 /* WHCCLocalCCInterceptorHolder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

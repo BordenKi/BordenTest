@@ -1,0 +1,14 @@
+//
+//  BordenPodTestHeader.pch
+//  BordenPodTest_Example
+//
+//  Created by it-kangming on 2019/12/19.
+//  Copyright © 2019 康铭. All rights reserved.
+//
+
+#ifndef BordenPodTestHeader_pch
+#define BordenPodTestHeader_pch
+
+#import "WHCCHeader.h"
+
+#endif /* BordenPodTestHeader_pch */
